@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Galleria Ailanto - Ex Ante</title>
+<title>Galleria Ailanto</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -82,29 +82,49 @@
     font-size: 2rem;
     text-decoration: none;
   }
-
-  .back-link {
-    display: inline-block;
-    margin-bottom: 20px;
-    color: #1a5c4d;
-    text-decoration: none;
-  }
-  
-  .back-link:hover {
-    text-decoration: underline;
-  }
 </style>
 </head>
 <body>
 
-<a href="../index3.html" class="back-link">← Torna alla galleria principale</a>
+<h2>Gallerie fotografiche - Specie Ailanto</h2>
 
-<h2>Galleria fotografica - Ailanto Ex Ante</h2>
-
-<div class="gallery">
-  <img src="Ailanto_3ext.jpg" alt="Ailanto_3ext.jpg">
-  <img src="Ailanto_3ext_a.jpg" alt="Ailanto_3ext_a.jpg">
+<div class="gallery-links">
+  <h3>Seleziona una galleria:</h3>
+  <ul>
+    <li><a href="/veneto-agricoltura/ex_ante/index_ailanto3.html">Ailanto 2 ext lavori Febbraio 2025</a></li>
+    <li><a href="/ailanto_3_extlavori/index3ext.html">Ailanto 2 Settembre 2025 prima dei lavori</a></li>
+  </ul>
 </div>
+
+<style>
+  .gallery-links {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .gallery-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gallery-links li {
+    margin: 10px 0;
+  }
+  
+  .gallery-links a {
+    display: block;
+    padding: 15px 20px;
+    background: #1a5c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .gallery-links a:hover {
+    background: #267c66;
+  }
+</style>
 
 <!-- Lightbox viewer -->
 <div class="lightbox" id="lightbox">
